@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcara"
+    tools:context=".carabermain">
+
+
+<TextView
+    android:id="@+id/judul"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:layout_centerHorizontal="true"
+    android:textAlignment="center"
+    android:text="Cara Bermain"
+    android:textSize="30dp"
+    />
+
+    <TextView
+        android:id="@+id/subjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Kalian harus menebak nama dari gambar hewan yang tersedia,
+kalian harus menebak dengan cepat, karena
+waktu akan terus berjalan. Setiap soal waktunya
+semakin berkurang, dan jika kalian kehabisan waktu
+untuk menjawab maka kalian gagal untuk menebak
+gambar berikutnya. Selamat mencoba"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/mulaibermain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:background="#DC143C"
+        android:text="Mulai Bermain"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+< ? xml version = "1.0" encoding = "UTF-8" ? >
+        < project version = "4" >
+        < component name = "AndroidLayouts" >
+        < shared >
+        < config >
+        < device id = "4in WVGA (Nexus S)" / >
+        < device id = "2.7in QVGA" / >
+        < device id = "5.4in FWVGA" / >
+        < device id = "Nexus 7 2013" / >
+        < device id = "Nexus 7" / >
+        < device id = "pixel_3_xl" / >
+        < device id = "pixel_2_xl" / >
+        < device id = "Nexus 6" / >
+        < device id = "Nexus 6P" / >
+        < device id = "pixel_xl" / >
+        < /config>
+    </ shared >
+        < /component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>com.android.support</ group -id >
+        < name > appcompat - v7 < /name>
+        <version>28.0.0</ version >
+        < repository > Google, Android Repository < /repository>
+      </ library -update >
+        < library - update >
+        < group - id > com.google.firebase < /group-id>
+        <name>firebase-auth</ name >
+        < version > 19.3.1 < /version>
+        <repository>Google,Google Repository</ repository >
+        < /library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</ group -id >
+        < name > glide < /name>
+        <version 
+
+dependencies {
+  implementation 'com.android.support.constraint:constraint-layout:+'
+}

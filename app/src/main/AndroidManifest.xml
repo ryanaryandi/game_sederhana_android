@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.ryanaryandi.tebaknamahewan">
+
+    <dist:module dist:instant="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icontebak"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity android:name=".carabermain" />
+        <activity android:name=".ulat" />
+        <activity android:name=".sukses" />
+        <activity android:name=".cendrawasih" />
+        <activity android:name=".tawon" />
+        <activity android:name=".belatung" />
+        <activity android:name=".nyamuk" />
+        <activity android:name=".semut" />
+        <activity android:name=".kelinci" />
+        <activity android:name=".tupai" />
+        <activity android:name=".kecoa" />
+        <activity android:name=".ikan" />
+        <activity android:name=".babi" />
+        <activity android:name=".kudanil" />
+        <activity android:name=".monyet" />
+        <activity android:name=".zebra" />
+        <activity android:name=".beruang" />
+        <activity android:name=".singa" />
+        <activity android:name=".kupukupu" />
+        <activity android:name=".ular" />
+        <activity android:name=".gajah" />
+        <activity android:name=".rusa" />
+        <activity android:name=".udang" />
+        <activity android:name=".buaya" />
+        <activity android:name=".kerbau" />
+        <activity android:name=".labalaba" />
+        <activity android:name=".anjing" />
+        <activity android:name=".siput" />
+        <activity android:name=".badak" />
+        <activity android:name=".kurakura" />
+        <activity android:name=".kuda" />
+        <activity android:name=".burunghantu" />
+        <activity android:name=".merpati" />
+        <activity android:name=".jerapah" />
+        <activity android:name=".bebek" />
+        <activity android:name=".kambing" />
+        <activity android:name=".sapi" />
+        <activity android:name=".tikus" />
+        <activity android:name=".ayam" />
+        <activity android:name=".soang" />
+        <activity android:name=".gagal" />
+        <activity android:name=".dua" />
+        <activity android:name=".satu" />
+        <activity android:name=".tidakadakoneksi" />
+        <activity android:name=".depan" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

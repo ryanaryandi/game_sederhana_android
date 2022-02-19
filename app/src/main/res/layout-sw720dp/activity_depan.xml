@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="800dp"
+    android:layout_height="1300dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/depan100"
+    tools:context=".depan">
+
+    <Button
+        android:id="@+id/bermain"
+        android:background="@drawable/beber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="500dp"
+        />
+
+    <Button
+        android:id="@+id/carabermain"
+        android:background="@drawable/cara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="50dp"
+        />
+</LinearLayout>

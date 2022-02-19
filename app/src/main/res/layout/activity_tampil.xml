@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background= "@drawable/bg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/gambar1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginTop="63dp"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+
+        <EditText
+            android:id="@+id/jawab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="center"
+            android:textColorHint="@android:color/white"
+            android:textStyle="italic"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:hint="Jawab disini"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonCek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cek"
+            android:textAllCaps="true"
+            android:layout_weight="3"
+            android:textColor="@android:color/background_dark"
+            android:background="#DC143C"
+            android:layout_marginLeft="12dp"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/skor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:id="@+id/pertanyaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Gambar hewan apakah ini ?"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="SCORE"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/home"
+        />
+</RelativeLayout>
